@@ -20,21 +20,33 @@
     var CONFIG = {"hostname":"135135135.github.io","root":"/","scheme":"Gemini","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
   </script>
 
-  <meta name="description" content="制作本个人博客的过程简单介绍">
+  <meta name="description" content="一道shiro的ctf题">
 <meta property="og:type" content="article">
-<meta property="og:title" content="第一篇博客：创建博客">
-<meta property="og:url" content="http://135135135.github.io/2023/09/29/1/index.html">
+<meta property="og:title" content="SpringShiro">
+<meta property="og:url" content="http://135135135.github.io/2024/04/22/3/3/index.html">
 <meta property="og:site_name" content="135的个人博客">
-<meta property="og:description" content="制作本个人博客的过程简单介绍">
+<meta property="og:description" content="一道shiro的ctf题">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2023-09-29T05:52:08.000Z">
-<meta property="article:modified_time" content="2023-09-29T13:14:50.583Z">
+<meta property="og:image" content="http://135135135.github.io/2024/04/22/3/3/image.png">
+<meta property="og:image" content="http://135135135.github.io/2024/04/22/3/3/image-1.png">
+<meta property="og:image" content="http://135135135.github.io/2024/04/22/3/3/image-2.png">
+<meta property="og:image" content="http://135135135.github.io/2024/04/22/3/3/image-3.png">
+<meta property="og:image" content="http://135135135.github.io/2024/04/22/3/3/image-5.png">
+<meta property="og:image" content="http://135135135.github.io/2024/04/22/3/3/image-6.png">
+<meta property="og:image" content="http://135135135.github.io/2024/04/22/3/3/image-7.png">
+<meta property="og:image" content="http://135135135.github.io/2024/04/22/3/3/image-8.png">
+<meta property="og:image" content="http://135135135.github.io/2024/04/22/3/3/image-9.png">
+<meta property="og:image" content="http://135135135.github.io/2024/04/22/3/3/image-10.png">
+<meta property="article:published_time" content="2024-04-22T13:25:47.000Z">
+<meta property="article:modified_time" content="2024-04-22T16:10:05.592Z">
 <meta property="article:author" content="135135135">
-<meta property="article:tag" content="blog">
-<meta property="article:tag" content="hexo">
+<meta property="article:tag" content="ctf">
+<meta property="article:tag" content="web">
+<meta property="article:tag" content="反序列化漏洞">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://135135135.github.io/2024/04/22/3/3/image.png">
 
-<link rel="canonical" href="http://135135135.github.io/2023/09/29/1/">
+<link rel="canonical" href="http://135135135.github.io/2024/04/22/3/3/">
 
 
 <script id="page-configurations">
@@ -47,7 +59,7 @@
   };
 </script>
 
-  <title>第一篇博客：创建博客 | 135的个人博客</title>
+  <title>SpringShiro | 135的个人博客</title>
   
 
 
@@ -162,7 +174,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://135135135.github.io/2023/09/29/1/">
+    <link itemprop="mainEntityOfPage" href="http://135135135.github.io/2024/04/22/3/3/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -175,7 +187,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          第一篇博客：创建博客
+          SpringShiro
         </h1>
 
         <div class="post-meta">
@@ -184,13 +196,19 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2023-09-29 13:52:08 / 修改时间：21:14:50" itemprop="dateCreated datePublished" datetime="2023-09-29T13:52:08+08:00">2023-09-29</time>
+              <time title="创建时间：2024-04-22 21:25:47" itemprop="dateCreated datePublished" datetime="2024-04-22T21:25:47+08:00">2024-04-22</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2024-04-23 00:10:05" itemprop="dateModified" datetime="2024-04-23T00:10:05+08:00">2024-04-23</time>
+              </span>
 
           
-            <div class="post-description">制作本个人博客的过程简单介绍</div>
+            <div class="post-description">一道shiro的ctf题</div>
 
         </div>
       </header>
@@ -201,9 +219,37 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>  这个博客的创建画了我一上午的时间。</p>
-<h3 id="参考：https-zhuanlan-zhihu-com-p-102592286"><a href="#参考：https-zhuanlan-zhihu-com-p-102592286" class="headerlink" title="参考：https://zhuanlan.zhihu.com/p/102592286"></a>参考：<a target="_blank" rel="noopener" href="https://zhuanlan.zhihu.com/p/102592286">https://zhuanlan.zhihu.com/p/102592286</a></h3><h2 id="大致步骤如下"><a href="#大致步骤如下" class="headerlink" title="大致步骤如下"></a>大致步骤如下</h2><p>1.要求有github账号，有git，准备好nodejs和hexo，可选：一个域名（我没选）<br>2.github上创建一个公开仓库，要求名字格式为用户名.github.io<br>3.准备一个blog文件夹，找一个喜欢的主题（我选next），然后在_config.yml上添加部署位置为自己github上的网址<br>4.微调</p>
-<h2 id="目前准备"><a href="#目前准备" class="headerlink" title="目前准备"></a>目前准备</h2><p>1.学习markdown语法，不会写什么博客？<br>2.把自己的学习路程添加进去</p>
+        <p><img src="/2024/04/22/3/3/image.png" alt="alt text"></p>
+<p>这道题名字叫SpringShiro，用jadx反编译了jar文件，可以看到确实有Spring和shiro。<br>在资源文件&#x2F;BOOT-INF&#x2F;lib&#x2F;下，可以看到各组件的版本。<br><img src="/2024/04/22/3/3/image-1.png" alt="alt text"><br><img src="/2024/04/22/3/3/image-2.png" alt="alt text"></p>
+<p>黑盒情况下，抓包看到rememberme也能知道用了shiro<br><img src="/2024/04/22/3/3/image-3.png" alt="alt text"></p>
+<p>以及Springboot特有的报错页面<br><img src="/2024/04/22/3/3/image-5.png" alt="alt text"></p>
+<h2 id="shiro简介"><a href="#shiro简介" class="headerlink" title="shiro简介"></a>shiro简介</h2><p>Apache Shiro是一个Java 的安全(权限)框架</p>
+<p>shiro框架提供了记住密码的功能，用户登录成功后会生成经过加密并编码的cookie给用户。服务端会将cookie先base64解码，再AES解密，再反序列化。这里就包含了反序列化RCE漏洞，如果我们反向以上操作，将命令&#x3D;&gt;序列化&#x3D;&gt;AES加密&#x3D;&gt;base64加密，放在rememberMe处，就可以触发。</p>
+<p>这个过程中最难的是AES加密部分，因为AES加密是需要密钥的，而我们不知道服务端的密钥是多少。</p>
+<p>通过代码阅读可以知道，源代码没有特别设定密钥key，因此在这个版本的shiro会随机生成密钥。</p>
+<h3 id="Shiro-550"><a href="#Shiro-550" class="headerlink" title="Shiro-550"></a>Shiro-550</h3><p>这个漏洞跟本题无关，但也值得讲一下。</p>
+<p>影响：Apache Shiro &lt; 1.2.4</p>
+<p>这里只展示关键部分</p>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="title function_">AbstractRememberMeManager</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="built_in">this</span>.serializer = <span class="keyword">new</span> <span class="title class_">DefaultSerializer</span>&lt;PrincipalCollection&gt;();</span><br><span class="line">    <span class="built_in">this</span>.cipherService = <span class="keyword">new</span> <span class="title class_">AesCipherService</span>(); <span class="comment">//赋值cipherService</span></span><br><span class="line">    setCipherKey(DEFAULT_CIPHER_KEY_BYTES);  <span class="comment">//赋值密钥decryptionCipherKey</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>如上，在1.2.4以前，Apache Shiro的key默认密钥是固定的，因此可以轻松进行以上描述的反序列化RCE。</p>
+<h3 id="heapdump泄露"><a href="#heapdump泄露" class="headerlink" title="heapdump泄露"></a>heapdump泄露</h3><p>那么我们如何获取key呢？Springboot有一种信息泄露是heapdump泄露。</p>
+<p>在资源文件&#x2F;BOOT-INF&#x2F;classes&#x2F;application.properties中可以看到</p>
+<p><img src="/2024/04/22/3/3/image-6.png" alt="alt text"></p>
+<p>这句<code>management.endpoints.web.exposure.include=*</code></p>
+<p>Spring Boot Actuator提供了很多管理端点，用于监控和管理Spring Boot。这句话的意思是暴露所有的端点。</p>
+<p>黑盒时可以直接尝试访问一下</p>
+<p><img src="/2024/04/22/3/3/image-7.png" alt="alt text"></p>
+<p>成功了，访问<code>/actuator/heapdump</code>将heapdump下载下来。heapdump可以用各种工具查看。</p>
+<p>比如我使用<a target="_blank" rel="noopener" href="https://github.com/whwlsfb/JDumpSpider">JDumpSpider</a>，<code>java -jar .\JDumpSpider-1.1-SNAPSHOT-full.jar .\heapdump &gt; 1.txt</code></p>
+<p>然后可以直接在1.txt中检索到key</p>
+<p><img src="/2024/04/22/3/3/image-8.png" alt="alt text"></p>
+<p>获取key了，接下来的流程跟shiro-550几乎一样了（除了新版本加密方式换了以外）</p>
+<p>这里偷懒使用github上找的工具<a target="_blank" rel="noopener" href="https://github.com/SummerSec/ShiroAttack2">shiro_attack2</a></p>
+<p>直接输入key就可以了。shiro在1.4.2之后更换了加密方式（与shiro-721漏洞相关），即图中被勾选上的AES GCM。</p>
+<p><img src="/2024/04/22/3/3/image-9.png" alt="alt text"></p>
+<p><img src="/2024/04/22/3/3/image-10.png" alt="alt text"></p>
+<p>实现RCE。</p>
 
     </div>
 
@@ -213,8 +259,9 @@
 
       <footer class="post-footer">
           <div class="post-tags">
-              <a href="/tags/blog/" rel="tag"># blog</a>
-              <a href="/tags/hexo/" rel="tag"># hexo</a>
+              <a href="/tags/ctf/" rel="tag"># ctf</a>
+              <a href="/tags/web/" rel="tag"># web</a>
+              <a href="/tags/%E5%8F%8D%E5%BA%8F%E5%88%97%E5%8C%96%E6%BC%8F%E6%B4%9E/" rel="tag"># 反序列化漏洞</a>
           </div>
 
         
@@ -222,11 +269,11 @@
 
         
     <div class="post-nav">
-      <div class="post-nav-item"></div>
       <div class="post-nav-item">
-    <a href="/2023/11/04/2/" rel="next" title="wordpress中文url404问题">
-      wordpress中文url404问题 <i class="fa fa-chevron-right"></i>
+    <a href="/2023/11/04/2/2/" rel="prev" title="wordpress中文url404问题">
+      <i class="fa fa-chevron-left"></i> wordpress中文url404问题
     </a></div>
+      <div class="post-nav-item"></div>
     </div>
       </footer>
     
@@ -285,7 +332,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E5%8F%82%E8%80%83%EF%BC%9Ahttps-zhuanlan-zhihu-com-p-102592286"><span class="nav-number">1.</span> <span class="nav-text">参考：https:&#x2F;&#x2F;zhuanlan.zhihu.com&#x2F;p&#x2F;102592286</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%A4%A7%E8%87%B4%E6%AD%A5%E9%AA%A4%E5%A6%82%E4%B8%8B"><span class="nav-number"></span> <span class="nav-text">大致步骤如下</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9B%AE%E5%89%8D%E5%87%86%E5%A4%87"><span class="nav-number"></span> <span class="nav-text">目前准备</span></a></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#shiro%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">shiro简介</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Shiro-550"><span class="nav-number">1.1.</span> <span class="nav-text">Shiro-550</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#heapdump%E6%B3%84%E9%9C%B2"><span class="nav-number">1.2.</span> <span class="nav-text">heapdump泄露</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
